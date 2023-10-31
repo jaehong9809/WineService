@@ -27,7 +27,7 @@ public class AlcoholRepository {
 
     public void update(Long id, Alcohol updateAlcohol) {
         Alcohol item = findById(id);
-        item.setAlcoholName(updateAlcohol.getAlcoholName());
+        item.setItemName(updateAlcohol.getItemName());
         item.setPrice(updateAlcohol.getPrice());
         item.setQuantity(updateAlcohol.getQuantity());
     }

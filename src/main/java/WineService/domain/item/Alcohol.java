@@ -8,15 +8,15 @@ import lombok.Setter;
 @Setter
 public class Alcohol {
     private Long id;
-    private String alcoholName;
+    private String itemName;
     private Integer price;
     private Integer quantity;
     public Alcohol(){
 
     }
 
-    public Alcohol(String alcoholName, Integer price, Integer quantity) {
-        this.alcoholName = alcoholName;
+    public Alcohol(String itemName, Integer price, Integer quantity) {
+        this.itemName = itemName;
         this.price = price;
         this.quantity = quantity;
     }
